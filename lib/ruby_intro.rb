@@ -9,6 +9,7 @@ end
 
 def max_2_sum(arr)
   # YOUR CODE HERE
+  sum(arr.max(2))
 end
 
 def sum_to_n?(arr, number)
