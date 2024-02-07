@@ -14,6 +14,12 @@ end
 
 def sum_to_n?(arr, number)
   # YOUR CODE HERE
+  combo_array = arr.combination(2).map{|a,b| a+b}
+  if arr.length < 2
+    return false
+  else 
+    combo_array.include?(number)
+  end 
 end
 
 # Part 2
