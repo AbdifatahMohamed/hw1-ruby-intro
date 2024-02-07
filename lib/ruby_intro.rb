@@ -36,6 +36,7 @@ end
 
 def binary_multiple_of_4?(string)
   # YOUR CODE HERE
+  string.match?(/\A[01]+\z/) and (string.to_i)%4 == 0
 end
 
 # Part 3
